@@ -1,7 +1,5 @@
-import React, {Component} from 'react';
+import React from 'react';
 import ReactDOM from 'react-dom';
-import ListCard from './src/components/ListCard';
+import ListCard from './src/components/ListCard/ListCard';
 
-const app = document.querySelector('#root');
-
-ReactDOM.render(<ListCard />, app);
+ReactDOM.render(<ListCard />, document.querySelector('#root'));
